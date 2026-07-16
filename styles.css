@@ -1,0 +1,672 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:#cb8b42;
+    color:#333;
+    line-height:1.7;
+}
+
+
+header{
+    background:#fafbcc;
+    color:rgb(38, 76, 45);
+    text-align:center;
+    padding:20px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;   
+    margin: 5px 0;
+}
+
+.main-logo{
+    width: 500px;   
+    height: 200px;
+}
+
+.side-logo{
+    width: 200px;    
+    height: 200px;
+}
+
+.team-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.president-section{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 10px;
+}
+
+.president-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.president-info{
+    flex: 1;
+}
+
+.president-info h2{
+    color: #212c28;
+    font-size: 20px;
+}
+
+.president-info h3{
+    font-size: 20px;
+    margin: 1px ;
+    color:#183220;
+}
+
+.president-info p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+header h1{
+    font-size:40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+nav{
+    background:#2a3824;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    margin:0 20px;
+    padding:8px 15px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#0e5126;
+}
+
+
+section{
+    max-width:900px;
+    margin:40px auto;
+    background:rgb(0, 0, 0);
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+
+h2{
+    text-align:center;
+    font-size:42px;
+    color:#e8eeeb;
+    margin-bottom:25px;
+    
+    display: inline-block;
+    background-color: #f4edb9;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+h3{
+    color:#f0f4f2;
+    font-size: 30px;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+
+p{
+    font-size: 20px;
+    margin-bottom:15px;
+    text-align:justify;
+}
+
+
+ul{
+    margin-left:30px;
+}
+
+li{
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+
+strong{
+    display:block;
+    text-align:center;
+    margin-top:30px;
+    font-size:22px;
+    color:#0b5d4b;
+}
+
+footer{
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+
+section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgb(255, 252, 252);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #0b5d4b;
+    margin-bottom: 25px;
+}
+
+section h3 {
+    color: #0b5d4b;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-left: 5px solid #198754;
+    padding-left: 10px;
+}
+
+section p3 {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+section ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+section li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+section strong {
+    color: #183220
+}
+
+footer{
+    background-color:#183220;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:10px;
+}
+
+footer p{
+    margin:2px 0;
+    font-size:16px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#244133;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:40px;
+
+}
+
+.container{
+
+    width:95%;
+    max-width:1400px;
+    margin:auto;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 20px rgba(0,0,0,0.15);
+
+    overflow:hidden;
+
+}
+
+/* Banner */
+
+.banner{
+
+    position:relative;
+
+}
+
+.banner img{
+
+    width:100%;
+    height:300px;
+    object-fit:cover;
+
+}
+
+.banner-text{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    color:rgb(67, 60, 60);
+
+    text-align:center;
+
+}
+
+.banner-text h1{
+     color:#333;
+    
+    font-size:50px;
+
+}
+
+/* Intro */
+
+.intro{
+
+    padding:35px 60px;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
+/* Mission */
+
+.mission{
+
+    padding:0 60px 40px 60px;
+
+}
+
+.mission h2{
+
+    color:#1B5E20;
+
+    margin-bottom:15px;
+
+    font-size:32px;
+
+}
+
+.mission p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
+/* Two Columns */
+
+.content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:40px;
+
+    padding:20px 60px 60px 60px;
+
+}
+
+.left{
+
+    width:50%;
+
+}
+
+.left h2{
+
+    color:#1B5E20;
+
+    margin-bottom:20px;
+
+    font-size:32px;
+
+}
+
+.left ul{
+
+    padding-left:25px;
+
+    font-size:20px;
+
+    line-height:2;
+
+}
+
+.right{
+
+    width:50%;
+
+}
+
+.right img{
+
+    width:100%;
+
+    border-radius:10px;
+
+}
+
+
+
+
+
+
+
+
+
+.contact-page{
+    background:#293b32;
+}
+
+
+
+
+
+
+
+
+.contact-page .hero{
+    text-align:left;
+    padding: 20px 20px;
+}
+
+.contact-page .hero h1{
+    display:inline-block;
+    background:#f6df89;
+    color:#1f4d33;
+    padding:18px 45px;
+    border-radius:20px;
+    font-size:32px;
+    margin: bottom 10px;
+}
+
+.contact-page .hero p{
+    color:rgb(35, 58, 37);
+    font-size:20px;
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+}
+
+
+
+
+
+
+
+.contact-page .card{
+    background:white;
+    width:90%;
+    max-width:1000px;
+    margin:35px auto;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+
+
+
+
+
+
+
+
+.contact-page .card h2{
+    display:inline-block;
+    background:#f6df89;
+    color:#1f4d33;
+    padding:10px 25px;
+    border-radius:15px;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+
+
+
+
+
+
+
+.contact-page .info p{
+    font-size:21px;
+    margin:20px 0;
+    align-items:center;
+}
+
+.contact-page .info i{
+    color:#1f4d33;
+    margin-right:10px;
+}
+
+
+
+
+
+
+
+
+.contact-page form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-page label{
+    font-size:18px;
+    font-weight:bold;
+    color:#1f4d33;
+    margin-top:15px;
+    margin-bottom:8px;
+}
+
+.contact-page input,
+.contact-page textarea{
+    width:100%;
+    padding:16px;
+    border-radius:10px;
+    border:2px solid #cfcfcf;
+    font-size:17px;
+}
+
+.contact-page input:focus,
+.contact-page textarea:focus{
+    outline:none;
+    border:2px solid #1f4d33;
+}
+
+.contact-page textarea{
+    resize:vertical;
+    min-height:180px;
+}
+
+
+
+
+
+
+
+
+/* Buttons */
+
+.contact-page button{
+    margin-top:25px;
+    width:260px;
+    padding:15px;
+    background:#1f4d33;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-page button:hover{
+    background:#2b6c49;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Donation */
+
+.contact-page .donation{
+    text-align:center;
+}
+
+.contact-page .donation p{
+    font-size:19px;
+    line-height:1.8;
+    margin:20px 0;
+}
+
+.contact-page .donate-buttons{
+    margin:30px 0;
+}
+
+.contact-page .donate-buttons button{
+    width:350px;
+    background:#d6b24a;
+    color:#1f4d33;
+}
+
+.contact-page .donate-buttons button:hover{
+    background:#c39a28;
+}
+
+/* Donation Note */
+
+.contact-page .note{
+    margin-top:30px;
+    background:#f8f5ea;
+    border-left:6px solid #d6b24a;
+    border-radius:10px;
+    padding:20px;
+    text-align:left;
+}
+
+.contact-page .note h3{
+    color:#1f4d33;
+    margin-bottom:10px;
+}
+
+/* Footer */
+
+.contact-page footer{
+    background:#123220;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+.contact-page footer p{
+    margin:8px 0;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+.contact-page .hero h1{
+    font-size:36px;
+    padding:15px 30px;
+}
+
+.contact-page .hero p{
+    font-size:17px;
+}
+
+.contact-page .card{
+    width:95%;
+    padding:25px;
+}
+
+.contact-page .card h2{
+    font-size:24px;
+}
+
+.contact-page input,
+.contact-page textarea{
+    font-size:16px;
+}
+
+.contact-page button,
+.contact-page .donate-buttons button{
+    width:100%;
+}
+
+}
